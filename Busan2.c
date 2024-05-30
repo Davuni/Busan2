@@ -50,7 +50,7 @@ int main(void) {
 
 	//열차의 길이와 확률p(%)를 입력 받는다.
 	//잘못된 입력을 받으면 프로그램 종료
-	int len, p; y
+	int len, p;
 	printf("train length(%d~%d)>> ", LEN_MIN, LEN_MAX);
 	scanf_s("%d", &len);
 	if (len < LEN_MIN || len > LEN_MAX) {
